@@ -1,0 +1,40 @@
+// bubble sort = pairs of adjacent elements are compared, and the elements
+//		            swapped if they are not in order.
+
+//				 Quadratic time O(n^2)
+//				 small data set = okay-ish
+//				 large data set = BAD (plz don't)
+
+
+// selection sort = search through an array and keep track of the minimum value during 
+//			         each iteration. At the end of each iteration, we swap values.
+
+//				 Quadratic time O(n^2)
+//				 small data set = okay
+//				 large data set = BAD
+
+// Insertion sort = after comparing elements to the left,
+//				shift elements to the right to make room to insert a value
+
+//				Quadratic time O(n^2)
+//				small data set = decent
+//				large data set = BAD
+
+//				Less steps than Bubble sort
+//				Best case is O(n) compared to Selection sort O(n^2)
+
+// merge sort = recursively divide array in 2, sort, re-combine
+// run-time complexity = O(n Log n)
+// space complexity    = O(n)
+
+// quick sort = moves smaller elements to left of a pivot.
+//			   recursively divide array in 2 partitions
+
+//                       run-time complexity = Best case O(n log(n))
+//				   		                   Average case O(n log(n))
+//				   		                   Worst case O(n^2) if already sorted
+
+//                       space complexity    = O(log(n)) due to recursion
+
+
+(O(log n) ⊂ O(n) ⊂ O(n log n) ⊂ O(n2) ⊂ O(n3) ⊂ O(2n) ⊂ O(en) ⊂ O(n!)
